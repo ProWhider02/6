@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <nav>
+        <a href="{{ url_for('dashboard') }}">Dashboard</a> |
+        <a href="{{ url_for('admin') }}">Admin</a> |
+        <a href="{{ url_for('user') }}">User</a> |
+        <a href="/login">Login</a> |
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </nav>
+</body>
+</html>
